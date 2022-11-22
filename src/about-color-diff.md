@@ -7,7 +7,7 @@ sidebar: true
 This is a pure javascript app made to, out of a list of colors, pick the ones that have maximal color difference. I built this for use by the setting team at the University of Pittsburgh climbing wall.
 <!-- pure js app to, out of a list of colors, pick groups of a given size that are have maximal color difference -->
 
-[check it out](https://domonicmilesi.com/colors) &nbsp; [github](https://github.com/dom-o/colors)
+[check it out](https://mostbiggestegg.com/colors) &nbsp; [github](https://github.com/dom-o/colors)
 
 ## Why
 Like I say I built this for the routesetting team at the Pitt climbing wall, shortly after I became the head routesetter there. The goal of routesetting is to create fun, challenging, yet safe climbs for the wall patrons. Industry standard has now shifted to monochromatic setting, but at the time we used [taped setting](https://spotsettingblog.wordpress.com/general-info/tape/): you set a climb by bolting holds to the wall. You mark which holds are part of your climb with colored tape. You gotta be sure to mark adjacent or overlapping climbs with different color tapes, so the climbers can tell them apart.

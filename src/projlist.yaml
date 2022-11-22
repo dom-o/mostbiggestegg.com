@@ -7,28 +7,28 @@
 
 - title: rss-restart
   writeup: about-rss-restart
-  live: https://domonicmilesi.com/rss-restart
+  live: https://mostbiggestegg.com/rss-restart
   repo: https://github.com/dom-o/rss-restart
   descr: Creates an RSS feed from a list of URLs.
   status: curr
 
 - title: Juggling Tricks Matrix
   writeup: about-juggle
-  live: https://domonicmilesi.com/juggle
+  live: https://mostbiggestegg.com/juggle
   repo: https://github.com/dom-o/juggle
   descr: Adjacency matrix to explore relationships between juggling tricks.
   status: curr
 
 - title: spotify-recs-controller
   writeup: about-spotify-recs-controller
-  live: https://domonicmilesi.com/spotify-recs-controller
+  live: https://mostbiggestegg.com/spotify-recs-controller
   repo: https://github.com/dom-o/spotify-recs-controller
   descr: Lets you play around with the Spotify recommendations engine.
   status: curr
 
 - title: Color Differentiator
   writeup:
-  live: https://domonicmilesi.com/colors/
+  live: https://mostbiggestegg.com/colors/
   repo: https://github.com/dom-o/colors
   descr: Picks colors that are most visually distinct from each other.
   status: curr

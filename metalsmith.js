@@ -9,10 +9,10 @@ const Metalsmith = require('metalsmith'),
 Metalsmith(__dirname)
   .metadata({
     site: {
-      url: "https://domonicmilesi.com/",
-      author: "Domonic Milesi",
-      title:'domonicmilesi.com',
-      description: "Domonic Milesi's personal site."
+      url: "https://mostbiggestegg.com/",
+      author: "egghorn",
+      title:'mostbiggestegg.com',
+      description: "egghorn's personal site."
     },
   })
   .use(metadata({

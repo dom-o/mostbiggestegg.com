@@ -5,7 +5,7 @@ ord: 12
 ---
 juggle-skill is a visualization of the relationships between the [Library of Juggling](https://libraryofjuggling.com/) tricks, built solo by me.
 
-[check it out](https://domonicmilesi.com/juggle) &nbsp; [github](https://github.com/dom-o/juggle)
+[check it out](https://mostbiggestegg.com/juggle) &nbsp; [github](https://github.com/dom-o/juggle)
 
 ## Why
 I built this to inform my own juggling. I'm a hobby juggler and I realized my learning was somewhat haphazard. I learned cascade first and then juggler's tennis, like everyone else, but my progress thereafter had involved trawling Library of Juggling, picking a 3 ball trick that looked cool or had a fun name, and trying to learn that. Building this app was an attempt to organize the tricks and see if I couldn't get a sense of the more foundational ones, so I could learn them in an order that'd let them build upon each other more.

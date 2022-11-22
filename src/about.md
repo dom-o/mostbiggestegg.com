@@ -1,21 +1,9 @@
 ---
 layout: about.njk
 sidebar: true
-title: Me
+title: egghorn
 ---
-<h1>Me</h1>
-<picture>
-  <source srcset="img/me.webp" type="image/webp" />
-  <img
-    class="me"
-    src="img/me.jpg"
-    alt="Domonic Milesi"
-  />
-</picture>
-<p>
-  Moniker Domonic. Grew up in Sunnyvale, California; received a B.S. in Computer Science from  University of Pittsburgh in 2018. Enjoys rock climbing.
-</p>
-  <p>Currently: searching for work.</p>
+<h1>egghorn</h1>
 <p>
 Firm believer that within what you ask the oracle is who you are; to that end, have recently googled all of the following:
   <ul>
@@ -34,7 +22,4 @@ Firm believer that within what you ask the oracle is who you are; to that end, h
 <p>
   Can be found elsewhere/contacted:
   <br>
-  <a href="mailto:domonic.n.milesi@gmail.com?subject=whats%20good&body=yoo,%0d%0a">domonic.n.milesi@gmail.com</a>
-  &nbsp;
-  <a href="https://github.com/dom-o">github</a>
 </p>

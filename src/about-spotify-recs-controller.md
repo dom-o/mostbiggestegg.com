@@ -5,7 +5,7 @@ ord: 11
 ---
 spotify-recs-controller is a vuejs/node web app that lets you play with the Spotify recommendation API, built solo by me.
 
-[check it out](https://domonicmilesi.com/spotify-recs-controller) &nbsp; [github](https://github.com/dom-o/spotify-recs-controller)
+[check it out](https://mostbiggestegg.com/spotify-recs-controller) &nbsp; [github](https://github.com/dom-o/spotify-recs-controller)
 
 ## Why
 This is for making playlists. Most of my playlists are built around small kernels - I'll have one or two songs I like, that well complement each other, and I'll want an hour of that vibe. What this meant in practice before was a lot of combing through the 'artists similar to this one' section. But I knew Spotify had, at least internally, better tools for this; you can hit 'create a playlist based off these songs' and it can do it. It doesn't do it particularly well in my opinion, but like I say, clearly the tools exist to make the process easier. What I wanted out of building this was to expose those tools for my own use.
