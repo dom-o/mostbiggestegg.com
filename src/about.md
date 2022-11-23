@@ -3,9 +3,9 @@ layout: about.njk
 sidebar: true
 title: egghorn
 ---
-<h1>egghorn</h1>
+<p>Normal. Into once-a-month cooking, rock climbing, Super Smash Bros Ultimate. Will one day eat five dozen eggs in one sitting. I hope that when people talk about me they describe me as being 'shnasty with it'.</p>
 <p>
-Firm believer that within what you ask the oracle is who you are; to that end, have recently googled all of the following:
+I believe that within what you ask the oracle is who you are. To that end, I reveal I have recently googled all of the following:
   <ul>
     <li><a href="https://www.google.com/search?q=lattice+finger+strength">lattice finger strength</a></li>
     <li><a href="https://www.google.com/search?q=paperclip+ai+game">paperclip ai game</a></li>
@@ -20,6 +20,9 @@ Firm believer that within what you ask the oracle is who you are; to that end, h
   </ul>
 </p>
 <p>
-  Can be found elsewhere/contacted:
-  <br>
+  Can be found elsewhere:
+  <a href="https://www.tumblr.com/egghorn">tumblr</a>&nbsp;
+  <a href="https://twitter.com/egghorn1">twitter</a>&nbsp;
+  <a href="https://cohost.org/egghorn">cohost</a>&nbsp;
+  <a href="https://mastodon.lol/@egghorn">mastodon.lol</a>&nbsp;
 </p>

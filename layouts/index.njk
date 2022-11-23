@@ -1,6 +1,7 @@
 {% extends "./default.njk" %}
 
 {% block main %}
+<a href="{{rootPath}}feed">RSS</a>
 <ul style="padding-left:0; line-height:2;">
 
 {% for page in pages | sort(true, false, 'date') %}

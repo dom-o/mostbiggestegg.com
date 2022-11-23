@@ -12,7 +12,7 @@ Metalsmith(__dirname)
       url: "https://mostbiggestegg.com/",
       author: "egghorn",
       title:'mostbiggestegg.com',
-      description: "egghorn's personal site."
+      description: "egghorn website."
     },
   })
   .use(metadata({

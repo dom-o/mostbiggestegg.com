@@ -8,25 +8,25 @@
   date: 2022-08-03
   ord: 15
 
-- title: rss-restart writeup
-  path: about-rss-restart
-  date: 2022-08-03
-  ord: 14
+# - title: rss-restart writeup
+#   path: about-rss-restart
+#   date: 2022-08-03
+#   ord: 14
+#
+# - title: rss-restart
+#   url: https://mostbiggestegg.com/rss-restart
+#   date: 2022-08-03
+#   ord: 13
 
-- title: rss-restart
-  url: https://mostbiggestegg.com/rss-restart
-  date: 2022-08-03
-  ord: 13
+# - title: Juggling Tricks Matrix writeup
+#   path: about-juggle
+#   date: 2022-06-18
+#   ord: 12
 
-- title: Juggling Tricks Matrix writeup
-  path: about-juggle
-  date: 2022-06-18
-  ord: 12
-
-- title: spotify-recs-controller writeup
-  path: about-spotify-recs-controller
-  date: 2022-06-13
-  ord: 11
+# - title: spotify-recs-controller writeup
+#   path: about-spotify-recs-controller
+#   date: 2022-06-13
+#   ord: 11
 
 - title: Juggling Tricks Matrix
   url: https://mostbiggestegg.com/juggle
