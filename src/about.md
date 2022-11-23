@@ -1,7 +1,7 @@
 ---
 layout: about.njk
 sidebar: true
-title: egghorn
+title: About
 ---
 <p>Normal. Into once-a-month cooking, rock climbing, Super Smash Bros Ultimate. Will one day eat five dozen eggs in one sitting. I hope that when people talk about me they describe me as being 'shnasty with it'.</p>
 <p>
