@@ -42,7 +42,7 @@ function bars(e,s) {
   }
   str+=');"></div>';
   if (e) {
-    str+= `<div class="event-info" style="border-top:solid ${usedColors[e.id]}"><h2><time datetime=${e.date}>${e.dateStr}</time></h2><p>${e.text}</p></div>`;
+    str+= `<div class="event-info" style="border-top:solid ${usedColors[e.id]}"><h3><time datetime=${e.date}>${e.dateStr}</time></h3><p>${e.text}</p></div>`;
   }
   str+= '</div>';
   return str;
@@ -52,8 +52,8 @@ function initMakeHaps(options= defaultOptions) {
   return function makeHaps(files, metalsmith, done) {
     setImmediate(done);
 
-    const destination = options.destination || 'haps.html';
-    const beginFile='<div id="timeline">';
+    const destination = options.destination || 'about.md';
+    const beginFile='<h1>Haps</h1><div id="timeline">';
     var out ='';
     var years = {};
     for(let i=1994;i<new Date().getFullYear()+1;i++) {
@@ -82,7 +82,7 @@ function initMakeHaps(options= defaultOptions) {
 
     var stack={};
     for (const [year, evs] of Object.entries(years)) {
-      let str = `<div class="year-container"><h1>${year}</h1><div class="events-container">`;
+      let str = `<div class="year-container"><h2>${year}</h2><div class="events-container">`;
       if (evs.length) {
         if(evs.length>1) {
           evs.sort((a,b)=>{return a.date-b.date;});
@@ -115,12 +115,12 @@ function initMakeHaps(options= defaultOptions) {
       out=str+'</div></div>'+out;
     }
     out = beginFile+out+'</div>';
-    files[destination] = {
-      layout: 'haps.njk',
-      sidebar: true,
-      ord: 17,
-      contents: Buffer.from(out)
-    };
+    files[destination].contents+= Buffer.from(out) //= {
+    //   layout: 'haps.njk',
+    //   sidebar: true,
+    //   ord: 17,
+    //   contents: Buffer.from(out)
+    // };
   };
 }
 module.exports = initMakeHaps;

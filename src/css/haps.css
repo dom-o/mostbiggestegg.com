@@ -1,16 +1,13 @@
 #timeline {
   border-top: solid white;
 }
-#timeline h1 {
-  margin-top: 0;
-}
-#timeline h2,p {
+#timeline h3,p {
   line-height:1.6;
   font-size:1rem;
   margin:0;
 }
-.year-container h1 {
-  margin-right: 0.5rem;
+.year-container h2 {
+  margin: 0.5rem;
 }
 .year-container {
   border-bottom: thin solid grey;
