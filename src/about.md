@@ -3,7 +3,7 @@ layout: about.njk
 sidebar: true
 title: About
 ---
-<p>Normal. Into once-a-month cooking, rock climbing, Super Smash Bros Ultimate. Will one day eat five dozen eggs in one sitting. I hope that when people talk about me they describe me as being 'shnasty with it'.</p>
+<p>Normal; has two legs and an engine just like everyone else. Into once-a-month cooking, rock climbing, Super Smash Bros Ultimate. Will one day eat five dozen eggs in one sitting. I hope that when people talk about me they describe me as being 'shnasty with it'.</p>
 <p>
 I believe that within what you ask the oracle is who you are. To that end, I reveal I have recently googled all of the following:
   <ul>
@@ -25,4 +25,5 @@ I believe that within what you ask the oracle is who you are. To that end, I rev
   <a href="https://twitter.com/egghorn1">twitter</a>&nbsp;
   <a href="https://cohost.org/egghorn">cohost</a>&nbsp;
   <a href="https://mastodon.lol/@egghorn">mastodon.lol</a>&nbsp;
+  <a href="https://letterboxd.com/mdomonic/">letterboxd</a>&nbsp;
 </p>
