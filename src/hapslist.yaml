@@ -1,0 +1,19 @@
+- start: 2012-08-01
+  text: 'Moved to Pittsburgh'
+  punch: false
+  end: 2022-10-15
+  endText: ''
+- start: 1994-07-19
+  text: 'Born'
+  punch: true
+- start: 2022-10-11
+  text: 'started running <a href="https://docs.google.com/spreadsheets/d/1L8YAsdYg2zTZjQJXi9bPIc5SrAVbQgAo_J9GWNk6Xuw/edit#gid=1163818884">forearm hypertophy plan</a>'
+  punch: false
+- start: 2015-09-01
+  text: 'Gaston Project conceived'
+  punch: false
+- start: 2022-10-01
+  text: ''
+  punch: false
+  end: 2022-10-31
+  endText: '3rd Annual <a href="all-horror-oct-3">Horror Film Every Day October</a>'

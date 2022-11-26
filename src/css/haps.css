@@ -1,0 +1,39 @@
+#timeline {
+  border-top: solid white;
+}
+#timeline h1 {
+  margin-top: 0;
+}
+#timeline h2,p {
+  line-height:1.6;
+  font-size:1rem;
+  margin:0;
+}
+.year-container h1 {
+  margin-right: 0.5rem;
+}
+.year-container {
+  border-bottom: thin solid grey;
+}
+.bars {
+  flex-shrink: 0;
+  width:3rem;
+  border-bottom-right-radius: 5%;
+}
+.year-container, .events-container, .event, .event-info {
+  display:flex;
+}
+.events-container, .event, .year-container {
+  align-items:stretch;
+  align-content:stretch;
+}
+.events-container, .event, .event-info {
+  flex:1;
+}
+.events-container {
+  flex-direction:column;
+}
+.event-info {
+  flex-direction:column;
+  padding-left: 0.5rem;
+}

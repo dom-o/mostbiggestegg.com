@@ -4,6 +4,7 @@ const Metalsmith = require('metalsmith'),
   rootpath = require('metalsmith-rootpath'),
   layouts = require('@metalsmith/layouts'),
   feed = require('./plugins/feed'),
+  haps = require('./plugins/haps')
   debug = require('metalsmith-debug');
 
 Metalsmith(__dirname)
@@ -18,7 +19,9 @@ Metalsmith(__dirname)
   .use(metadata({
     'pages': 'src/pagelist.yaml',
     'projs': 'src/projlist.yaml',
+    'haps-events': 'src/hapslist.yaml'
   }))
+  .use(haps())
   .use(markdown())
   .use(rootpath())
   .use(layouts({
