@@ -63,7 +63,7 @@ module.exports = function(options) {
       feed.item(preprocess(itemData));
     }
 
-    files[destination] = {contents: new Buffer(feed.xml(), 'utf8')};
+    files[destination] = {contents: Buffer.from(feed.xml(), 'utf8')};
     return done();
   };
 };
