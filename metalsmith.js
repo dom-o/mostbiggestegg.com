@@ -6,6 +6,7 @@ const Metalsmith = require('metalsmith'),
   feed = require('./plugins/feed'),
   haps = require('./plugins/haps')
   debug = require('metalsmith-debug');
+  imageAspectRatio = require('metalsmith-image-aspect-ratio');
 
 Metalsmith(__dirname)
   .metadata({
@@ -35,6 +36,11 @@ Metalsmith(__dirname)
     }
   }))
   .use(feed({collection: 'pages'}))
+  .use(imageAspectRatio({
+    pattern: '**/*.html',
+    imageExtensions: ['png', 'jpg', 'jpeg', 'gif', 'webp'],
+    imagesContainerClassName: '.container img',
+  }))
   .use(debug())
 
   .build(function(err, files) {

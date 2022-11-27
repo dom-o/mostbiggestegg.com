@@ -17,6 +17,7 @@
     "metalsmith": "^2.5.0",
     "metalsmith-debug": "^1.2.0",
     "metalsmith-html-glob": "^0.4.0",
+    "metalsmith-image-aspect-ratio": "^1.0.2",
     "metalsmith-rootpath": "^1.0.4",
     "rss": "^1.2.2"
   }
