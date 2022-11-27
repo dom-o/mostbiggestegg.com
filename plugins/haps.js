@@ -23,8 +23,7 @@ class Hap {
 }
 
 function bars(e,s) {
-  let str = `<div class="event">
-          <div class="bars" style="background: linear-gradient(to right`;
+  let str = `<div class="event"><div class="bars" style="background: linear-gradient(to right`;
   let j=0, check=false;
 
   for (const [i,v] of Object.entries(Object.values(s))) {

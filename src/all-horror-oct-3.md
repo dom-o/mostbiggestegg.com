@@ -5,7 +5,7 @@ ord: 19
 ---
 Declaring overall project a tentative success. I started Horror Film Every Day October to toughen myself up; I was convinced that horror films were good art, that I was missing out on by being soft. Not soft anymore. Granted nonzero I just picked weak films this year, but I don't think it's the films. It's me. I am tougher. It is harder for a film to hit me with the Mike Tyson punch of fear now; I may never watch something and be afraid of the dark for a week ever again and I gotta stop being disappointed by that. Gotta make a point of evaluating horror films based on more than their raw ability to terrify/disgust me. Unfortunately didn't realize this until late in the month. Most of my notes on the below films are something to the effect of 'not raw; failed to terrify'; pretty much everything (especially the older 'classic' stuff) deserves a rewatch with a more calibrated state of mind.
 
-Also, film every day is a lot. Kinda burns me out on cinema after the months is over.
+Also, film every day is a lot. Kinda burns me out on cinema after the month is over.
 
 
 ## Film list:
