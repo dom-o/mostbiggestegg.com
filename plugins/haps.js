@@ -1,7 +1,5 @@
-const defaultOptions = {
-  pattern: '**',
-  keys: null
-};
+var debug = require('debug')('haps')
+
 const colors = [
   '#0074D9', //#blue
   '#2ECC40', //#green
@@ -47,7 +45,7 @@ function bars(e,s) {
   return str;
 }
 
-function initMakeHaps(options= defaultOptions) {
+function initMakeHaps(options={}) {
   return function makeHaps(files, metalsmith, done) {
     setImmediate(done);
 
@@ -95,6 +93,7 @@ function initMakeHaps(options= defaultOptions) {
         }
         let tmp='';
         for (let e of evs) {
+          debug(`Add event "${e.text}".`)
           let color = usedColors[e.id];
           if (e.punch || e.insert) {
             color= colors.shift();
@@ -120,6 +119,7 @@ function initMakeHaps(options= defaultOptions) {
     //   ord: 17,
     //   contents: Buffer.from(out)
     // };
+    done()
   };
 }
 module.exports = initMakeHaps;

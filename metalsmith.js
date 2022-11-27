@@ -3,10 +3,15 @@ const Metalsmith = require('metalsmith'),
   markdown = require('@metalsmith/markdown'),
   rootpath = require('metalsmith-rootpath'),
   layouts = require('@metalsmith/layouts'),
+  imageAspectRatio = require('metalsmith-image-aspect-ratio'),
+  htmlLinter = require('metalsmith-html-linter'),
+
   feed = require('./plugins/feed'),
-  haps = require('./plugins/haps')
+  haps = require('./plugins/haps'),
+  imgToPicture = require('./plugins/imgToPicture'),
+
   debug = require('metalsmith-debug');
-  imageAspectRatio = require('metalsmith-image-aspect-ratio');
+
 
 Metalsmith(__dirname)
   .metadata({
@@ -36,11 +41,13 @@ Metalsmith(__dirname)
     }
   }))
   .use(feed({collection: 'pages'}))
+  .use(imgToPicture())
   .use(imageAspectRatio({
     pattern: '**/*.html',
     imageExtensions: ['png', 'jpg', 'jpeg', 'gif', 'webp'],
-    imagesContainerClassName: '.container img',
+    imagesContainerClassName: '.content img',
   }))
+  .use(htmlLinter({}))
   .use(debug())
 
   .build(function(err, files) {

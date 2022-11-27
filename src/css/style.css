@@ -87,3 +87,8 @@ blockquote p:last-child {
 .content > :first-child {
   margin-top: 0rem;
 }
+
+.image {
+  width: 35rem;
+  max-width: 100%;
+}
