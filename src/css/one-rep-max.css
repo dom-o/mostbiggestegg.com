@@ -1,28 +1,45 @@
 .container {
   max-width: none;
 }
-.content  p,form,h1,h2,blockquote,ol,ul,input,label {
+
+.content p,
+form,
+h1,
+h2,
+blockquote,
+ol,
+ul,
+input,
+label {
   max-width: 45rem;
 }
+
 table {
-  margin: 0rem 0rem 0.5rem;
+  margin: 0 0 0.5rem;
   border-collapse: collapse;
 }
+
 th {
   border-bottom: solid #fff;
 }
-td, th {
-  padding: 0rem 1rem;
+
+td,
+th {
+  padding: 0 1rem;
   text-align: center;
 }
+
 .table-container {
   max-width: 100%;
-  margin: 0.5rem 0rem 2rem;
+  margin: 0.5rem 0 2rem;
   overflow-x: auto;
 }
+
 tr:nth-child(even) {
-  background: #3e3e3e
+  background: #3e3e3e;
 }
-input[type=number], input[type=text] {
+
+input[type="number"],
+input[type="text"] {
   width: 5rem;
 }

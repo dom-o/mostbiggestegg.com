@@ -51,7 +51,7 @@ const formulas = {
     solveForWeight: function(max, reps) {
       return (max * (52.2 + (41.9*Math.exp(-0.055*reps)))) / 100
     }
-  }, "O'Conner": {
+  }, 'O\'Conner': {
     solveForMax: function(reps, weight) {
       return weight * (1+(reps/40))
     },

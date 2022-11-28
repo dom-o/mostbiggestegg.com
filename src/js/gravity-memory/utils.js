@@ -19,64 +19,64 @@ const utils = {
     return Math.round(numCards/5)
   },
   vectorSetMag: function(x, y, scale) {
-    v = this.vectorNormalize(x, y);
+    v = this.vectorNormalize(x, y)
     return {
       x: v.x * scale,
       y: v.y * scale
-    };
+    }
   },
   applyForceTowardPt: function(x1, y1, x2, y2, mag) {
-    x= x1 - x2;
-    y= y1 - y2;
-    return this.vectorSetMag(x, y, mag);
+    x= x1 - x2
+    y= y1 - y2
+    return this.vectorSetMag(x, y, mag)
   },
   vectorMag: function(x, y) {
-    return Math.sqrt((x*x) + (y*y));
+    return Math.sqrt((x*x) + (y*y))
   },
   vectorNormalize: function(x, y) {
-    m= this.vectorMag(x, y);
+    m= this.vectorMag(x, y)
     m > 0 ?
       r= {x:x/m, y:y/m}
-    :
-      r= {x:x, y:y};
-    return r;
+      :
+      r= {x:x, y:y}
+    return r
   },
   drawByVertices: function(vertices, ctx) {
-    ctx.beginPath();
-    ctx.moveTo(vertices[0].x, vertices[0].y);
+    ctx.beginPath()
+    ctx.moveTo(vertices[0].x, vertices[0].y)
     for(j=0; j<vertices.length; j++) {
-      ctx.lineTo(vertices[j].x, vertices[j].y);
+      ctx.lineTo(vertices[j].x, vertices[j].y)
     }
-    ctx.lineTo(vertices[0].x, vertices[0].y);
+    ctx.lineTo(vertices[0].x, vertices[0].y)
 
-    ctx.lineWidth = 1;
-    ctx.stroke();
-    ctx.fill();
-    ctx.closePath();
+    ctx.lineWidth = 1
+    ctx.stroke()
+    ctx.fill()
+    ctx.closePath()
   },
   getTexture: function(textures, imagePath) {
-    var image = textures[imagePath];
+    var image = textures[imagePath]
 
     if (image)
-      return image;
+      return image
 
-    image = textures[imagePath] = new Image();
-    image.src = imagePath;
+    image = textures[imagePath] = new Image()
+    image.src = imagePath
 
-    return image;
+    return image
   },
   drawTexture: function(ctx, body, texture, sprite) {
-    ctx.translate(body.position.x, body.position.y);
-    ctx.rotate(body.angle);
+    ctx.translate(body.position.x, body.position.y)
+    ctx.rotate(body.angle)
     ctx.drawImage(
       texture,
       texture.width * -sprite.xOffset * sprite.xScale,
       texture.height * -sprite.yOffset * sprite.yScale,
       texture.width * sprite.xScale,
       texture.height * sprite.yScale
-    );
+    )
     // revert translation, hopefully faster than save / restore
-    ctx.rotate(-body.angle);
-    ctx.translate(-body.position.x, -body.position.y);
+    ctx.rotate(-body.angle)
+    ctx.translate(-body.position.x, -body.position.y)
   }
 }

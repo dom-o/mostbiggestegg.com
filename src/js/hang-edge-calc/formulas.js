@@ -38,7 +38,7 @@ function quartic_inverse(a,b,c,d,e,y) {
   for (const root of roots) {
     let possible = bigmath.round(root.evaluate({a:a,b:b,c:c,d:d,e:bigmath.bignumber(e-y)}), 4)
     if(bigmath.hasNumericValue(possible)) {
-       actuals.push(bigmath.numeric(possible, 'number'))
+      actuals.push(bigmath.numeric(possible, 'number'))
     } else if (bigmath.typeOf(possible) == 'Complex' && bigmath.equal(possible.im,0)) {
       actuals.push(possible.re)
     }
@@ -120,7 +120,7 @@ const slope_max= {x:3.95151, y:574.486} //x in cm, y in newtons
 
 
 const formulas = {
-  "half-crimp": {
+  'half-crimp': {
     solveForPercent: function(init_edge) {
       return [solveForPercent(half_crimp_a,half_crimp_b,half_crimp_c,half_crimp_d,half_crimp_e,half_crimp_max.y, init_edge)]
     },
@@ -136,7 +136,7 @@ const formulas = {
     solveForMax: function(init_weight, init_edge) {
       return [solveForMax(half_crimp_a,half_crimp_b,half_crimp_c,half_crimp_d,half_crimp_e,half_crimp_max.y, init_weight, init_edge)]
     }
-  }, "full-crimp": {
+  }, 'full-crimp': {
     solveForPercent: function(init_edge) {
       return [solveForPercent(full_crimp_a,full_crimp_b,full_crimp_c,full_crimp_d,full_crimp_e,full_crimp_max.y, init_edge)]
     },
@@ -152,7 +152,7 @@ const formulas = {
     solveForMax: function(init_weight, init_edge) {
       return [solveForMax(full_crimp_a,full_crimp_b,full_crimp_c,full_crimp_d,full_crimp_e,full_crimp_max.y, init_weight, init_edge)]
     }
-  }, "slope": {
+  }, 'slope': {
     solveForPercent: function(init_edge) {
       return [solveForPercent(slope_a,slope_b,slope_c,slope_d,slope_e,slope_max.y, init_edge)]
     },

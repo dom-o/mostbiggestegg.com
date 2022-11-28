@@ -10,7 +10,7 @@ const sensible_output = function() {
 var init_weight, init_edge, target_weight, target_edge, bodyweight, head_html, body_html
 
 function inject(formula, solveFunction, elementSuffix, input, roundFunction, regulateFunction=null, preEval=null) {
-  let avg = 0, length=0, out;
+  let avg = 0, length=0, out
 
   input = input.map(x => Number.parseFloat(x))
   if(input.some(x => Number.isNaN(x))) {
