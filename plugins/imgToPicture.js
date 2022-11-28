@@ -26,8 +26,8 @@ function imgFix(opts={}) {
           var $picture = $('<picture>')
           $image.wrap($picture)
           $image.addClass('image')
-          for (i of [{type:'webp',ext:'webp'},{type:'jxl',ext:'jxl'}]) {
-            path = $image.attr('src').replace(/(\.)\w+$/g, '$1'+i['ext'])
+          for (let i of [{type:'webp',ext:'webp'},{type:'jxl',ext:'jxl'}]) {
+            const path = $image.attr('src').replace(/(\.)\w+$/g, '$1'+i['ext'])
 
             if (!files[path]) {
               debug(`${path} not found.`)
