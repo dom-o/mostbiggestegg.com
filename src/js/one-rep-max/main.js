@@ -2,7 +2,7 @@ const sensible_output = function() {
   return document.getElementById('sensible').checked && !document.getElementById('raw').checked
 }
 
-for(radio of document.getElementsByName('calc_output')) {
+for(let radio of document.getElementsByName('calc_output')) {
   radio.onclick = function(event) {
     max_eval(event)
     reps_eval(event)
@@ -159,7 +159,7 @@ function updateTable(elSuffix, message) {
 function inject(solveFunction, elementSuffix, params, roundFunction, sensible) {
   var avg= 0, length= 0
   for (const el in formulas) {
-    const out = roundFunction(formulas[el][solveFunction](...params))
+    let out = roundFunction(formulas[el][solveFunction](...params))
     if (sensible && out<0) { out= 0 }
     if(!Number.isNaN(out)) {
       avg+= out

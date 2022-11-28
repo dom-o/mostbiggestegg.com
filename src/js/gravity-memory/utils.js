@@ -19,22 +19,23 @@ const utils = {
     return Math.round(numCards/5)
   },
   vectorSetMag: function(x, y, scale) {
-    v = this.vectorNormalize(x, y)
+    const v = this.vectorNormalize(x, y)
     return {
       x: v.x * scale,
       y: v.y * scale
     }
   },
   applyForceTowardPt: function(x1, y1, x2, y2, mag) {
-    x= x1 - x2
-    y= y1 - y2
+    const x= x1 - x2
+    const y= y1 - y2
     return this.vectorSetMag(x, y, mag)
   },
   vectorMag: function(x, y) {
     return Math.sqrt((x*x) + (y*y))
   },
   vectorNormalize: function(x, y) {
-    m= this.vectorMag(x, y)
+    const m= this.vectorMag(x, y)
+    let r
     m > 0 ?
       r= {x:x/m, y:y/m}
       :
@@ -44,7 +45,7 @@ const utils = {
   drawByVertices: function(vertices, ctx) {
     ctx.beginPath()
     ctx.moveTo(vertices[0].x, vertices[0].y)
-    for(j=0; j<vertices.length; j++) {
+    for(let j=0; j<vertices.length; j++) {
       ctx.lineTo(vertices[j].x, vertices[j].y)
     }
     ctx.lineTo(vertices[0].x, vertices[0].y)
@@ -55,7 +56,7 @@ const utils = {
     ctx.closePath()
   },
   getTexture: function(textures, imagePath) {
-    var image = textures[imagePath]
+    let image = textures[imagePath]
 
     if (image)
       return image
