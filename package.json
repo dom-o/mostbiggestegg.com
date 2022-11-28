@@ -20,5 +20,10 @@
     "metalsmith-image-aspect-ratio": "^1.0.2",
     "metalsmith-rootpath": "^1.0.4",
     "rss": "^1.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.28.0",
+    "stylelint": "^14.15.0",
+    "stylelint-config-standard": "^29.0.0"
   }
 }

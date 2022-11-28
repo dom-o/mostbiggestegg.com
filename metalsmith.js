@@ -4,22 +4,21 @@ const Metalsmith = require('metalsmith'),
   rootpath = require('metalsmith-rootpath'),
   layouts = require('@metalsmith/layouts'),
   imageAspectRatio = require('metalsmith-image-aspect-ratio'),
-  htmlLinter = require('metalsmith-html-linter'),
 
   feed = require('./plugins/feed'),
   haps = require('./plugins/haps'),
   imgToPicture = require('./plugins/imgToPicture'),
 
-  debug = require('metalsmith-debug');
+  debug = require('metalsmith-debug')
 
 
 Metalsmith(__dirname)
   .metadata({
     site: {
-      url: "https://mostbiggestegg.com/",
-      author: "egghorn",
+      url: 'https://mostbiggestegg.com/',
+      author: 'egghorn',
       title:'mostbiggestegg.com',
-      description: "egghorn website."
+      description: 'egghorn website.'
     },
   })
   .use(metadata({
@@ -34,7 +33,7 @@ Metalsmith(__dirname)
     engineOptions: {
       filters: {
         UTCdate: string => (new Date(string)),
-        blogDate: string => (new Date(string).toLocaleString("en-US", { year: "numeric", month: "long", day: "numeric" })),
+        blogDate: string => (new Date(string).toLocaleString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })),
         match: (list, prop, val) => list.find(a => a[prop]==val),
         filter: (list, prop, val) => list.filter(a => a[prop] == val),
       }
@@ -47,10 +46,9 @@ Metalsmith(__dirname)
     imageExtensions: ['png', 'jpg', 'jpeg', 'gif', 'webp'],
     imagesContainerClassName: '.content img',
   }))
-  .use(htmlLinter({}))
   .use(debug())
 
   .build(function(err, files) {
 
-    if(err) { throw err; }
-  });
+    if(err) { throw err }
+  })
