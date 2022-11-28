@@ -14,6 +14,6 @@ ord: 2
   '-' to decrease the number of cards.<br/>
   'w' if you don't like the pictures.<br/>
 </p>
-<center>
-  <canvas id="canvas" style="border: 1px solid"></canvas>
-</center>
+<div>
+  <canvas id="canvas" style="margin:auto; border: 1px solid"></canvas>
+</div>

@@ -39,7 +39,7 @@ function bars(e,s) {
   }
   str+=');"></div>';
   if (e) {
-    str+= `<div class="event-info" style="border-top:solid ${usedColors[e.id]}"><h3><time datetime=${e.date}>${e.dateStr}</time></h3><p>${e.text}</p></div>`;
+    str+= `<div class="event-info" style="border-top:solid ${usedColors[e.id]}"><h3><time datetime="${e.date}">${e.dateStr}</time></h3><p>${e.text}</p></div>`;
   }
   str+= '</div>';
   return str;
