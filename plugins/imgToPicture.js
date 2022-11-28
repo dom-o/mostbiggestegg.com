@@ -1,6 +1,6 @@
-var debug = require('debug')('imgToPicture')
-var multimatch = require('multimatch')
-var cheerio = require('cheerio')
+const debug = require('debug')('imgToPicture')
+const multimatch = require('multimatch')
+const cheerio = require('cheerio')
 
 module.exports = imgFix
 
@@ -13,17 +13,17 @@ function imgFix(opts={}) {
 
     Object.keys(files).forEach(function (file) {
       if (multimatch(file, opts.pattern).length) {
-        var document = files[file]
+        const document = files[file]
         if (!document.contents) { return }
-        var $ = cheerio.load(document.contents.toString())
-        var images = $(opts.imageContainerClassName)
+        const $ = cheerio.load(document.contents.toString())
+        const images = $(opts.imageContainerClassName)
         images.each(function () {
-          var $image = $(this)
+          const $image = $(this)
           if (!$image.attr('alt')) {
-            return done(new Error(`No alt text on ${$image.attr('src')} in ${file}`))
+            debug(`No alt text on ${$image.attr('src')} in ${file}`)
           }
 
-          var $picture = $('<picture>')
+          const $picture = $('<picture>')
           $image.wrap($picture)
           $image.addClass('image')
           for (let i of [{type:'webp',ext:'webp'},{type:'jxl',ext:'jxl'}]) {

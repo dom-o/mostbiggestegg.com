@@ -1,4 +1,4 @@
-var debug = require('debug')('haps')
+const debug = require('debug')('haps')
 
 const colors = [
   '#0074D9', //#blue
@@ -51,8 +51,8 @@ function initMakeHaps(options={}) {
 
     const destination = options.destination || 'about.md'
     const beginFile='<h1>Haps</h1><div id="timeline">'
-    var out =''
-    var years = {}
+    let out =''
+    const years = {}
     for(let i=1994;i<new Date().getFullYear()+1;i++) {
       years[i] = []
     }
@@ -77,7 +77,7 @@ function initMakeHaps(options={}) {
       }
     }
 
-    var stack={}
+    const stack={}
     for (const [year, evs] of Object.entries(years)) {
       let str = `<div class="year-container"><h2>${year}</h2><div class="events-container">`
       if (evs.length) {

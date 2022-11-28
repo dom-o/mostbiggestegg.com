@@ -4,12 +4,10 @@ canvas.onselectstart = function () { return false }
 
 const Engine = Matter.Engine,
   World = Matter.World,
-  Render = Matter.Render,
   Bodies = Matter.Bodies,
   Body = Matter.Body,
   Events = Matter.Events,
   MouseConstraint = Matter.MouseConstraint,
-  Mouse = Matter.Mouse,
   Composite = Matter.Composite,
   Common = Matter.Common,
   constants = utils.constants
@@ -69,11 +67,11 @@ Events.on(mouseConstraint, 'mouseup', function(event) {
       }
       clearTimeout(nullTimer)
 
-      minX = 0
-      maxX = 0
+      let minX = 0
+      let maxX = 0
       mousePos.x < card.position.x ? maxX = constants.MOUSE_X_FORCE : maxX=0
       mousePos.x > card.position.x ? minX = -constants.MOUSE_X_FORCE : minX=0
-      force = {
+      const force = {
         x: Common.random(minX, maxX),
         y: constants.MOUSE_Y_FORCE
       }
@@ -105,7 +103,7 @@ Events.on(mouseConstraint, 'mouseup', function(event) {
 })
 
 Events.on(engine, 'collisionStart', function(event) {
-  pairs = event.pairs
+  const pairs = event.pairs
   for(let i=0; i<pairs.length; i++) {
     if (pairs[i].bodyA.label==='bottom_ground' || pairs[i].bodyB.label==='bottom_ground') {
       resetLevel(0)
@@ -152,17 +150,15 @@ Engine.run(engine);
     ctx.globalAlpha = 1
     ctx.fillStyle = background
     ctx.fillRect(0, 0, canvas.width, canvas.height)
-    for(i=0; i<bodies.length; i++) {
+    for(let i=0; i<bodies.length; i++) {
       let body = bodies[i]
 
       if (body.render.sprite && body.render.sprite.texture && showSprites) {
-        sprite = body.render.sprite
+        const sprite = body.render.sprite
+        let texture = utils.getTexture(textures, constants.IMAGES.cardBackPath)
         if(body===compareCard || body===currentCard) {
           // part sprite
-          var texture = utils.getTexture(textures, sprite.texture)
-        }
-        else {
-          var texture = utils.getTexture(textures, constants.IMAGES.cardBackPath)
+          texture = utils.getTexture(textures, sprite.texture)
         }
         utils.drawTexture(ctx, body, texture, sprite)
       }
@@ -178,9 +174,9 @@ Engine.run(engine);
       }
     }
 
-    for(i=0; i<utils.getPulse(constants.MAX_NUM_CARDS); i++) {
+    for(let i=0; i<utils.getPulse(constants.MAX_NUM_CARDS); i++) {
       i<pulse ? ctx.globalAlpha = 0.9 : ctx.globalAlpha = 0.2
-      pulseTexture = utils.getTexture(textures, constants.IMAGES.pulseIconPath)
+      const pulseTexture = utils.getTexture(textures, constants.IMAGES.pulseIconPath)
       ctx.drawImage(
         pulseTexture,
         40+(60*i), 30, 40, 40
@@ -208,7 +204,7 @@ function successShower(x, y, drop_width, num_drops, shower) {
         }
       })
       Composite.add(shower, drop)
-      velocity= {
+      const velocity= {
         x: Common.random(-2.5, 2.5),
         y: Common.random(-7.5, -5)
       }
@@ -223,8 +219,7 @@ function successShower(x, y, drop_width, num_drops, shower) {
 
 function resetLevel(card_increase) {
   while(timeoutIDs.length > 0) {
-    id = timeoutIDs.shift()
-    clearTimeout(id)
+    clearTimeout(timeoutIDs.shift())
   }
   cardsMatched = 0
   Composite.clear(deck)
@@ -240,7 +235,7 @@ function resetLevel(card_increase) {
 }
 
 function genCard(i, deck, textures) {
-  card = Bodies.rectangle(constants.VIEW_WIDTH/2, constants.VIEW_HEIGHT/2, constants.CARD_WIDTH, constants.CARD_HEIGHT, {
+  const card = Bodies.rectangle(constants.VIEW_WIDTH/2, constants.VIEW_HEIGHT/2, constants.CARD_WIDTH, constants.CARD_HEIGHT, {
     // restitution: 1,
     frictionStatic: 0,
     friction: 0,
@@ -257,7 +252,7 @@ function genCard(i, deck, textures) {
   })
   utils.getTexture(textures, card.render.sprite.texture)
   Composite.add(deck, card)
-  velocity= {
+  const velocity= {
     x: Common.random(-5, 5),
     y: Common.random(-11.25, -7.5)
   }
