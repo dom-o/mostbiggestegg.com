@@ -283,9 +283,9 @@
   },
   "about.html": {
     "filename": "about.html",
-    "hash": "4a39fb4641ae5e2a84ab618183cb85e510cdb42b",
+    "hash": "76022e26022ba6a3f19aa9ad733269d5b8ee6d53",
     "created": "2023-07-30T08:57:14.405Z",
-    "updated": "2023-07-30T09:02:19.339Z"
+    "updated": "2023-07-30T11:38:50.280Z"
   },
   "abrevd-lang.html": {
     "filename": "abrevd-lang.html",
@@ -335,10 +335,16 @@
     "created": "2023-07-30T08:57:14.405Z",
     "updated": "2023-07-30T08:57:14.405Z"
   },
-  "whatcha-been-googling?-#1.html": {
-    "filename": "whatcha-been-googling?-#1.html",
-    "hash": "a12715860938544fd80a8cbde245df511d92b837",
-    "created": "2023-07-30T10:55:44.344Z",
-    "updated": "2023-07-30T10:55:44.344Z"
+  "whatcha-googling-#1.html": {
+    "filename": "whatcha-googling-#1.html",
+    "hash": "f002ec5f619d29fa41fa0b1103d986e81256f703",
+    "created": "2021-11-30T00:00:00.000Z",
+    "updated": "2021-11-30T00:00:00.000Z"
+  },
+  "whatcha-googling-#2.html": {
+    "filename": "whatcha-googling-#2.html",
+    "hash": "ba61c9d751810c68b2287a3d0ee05795c5801dc4",
+    "created": "2023-07-30T11:38:50.280Z",
+    "updated": "2023-07-30T11:38:50.280Z"
   }
 }
