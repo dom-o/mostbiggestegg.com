@@ -1,0 +1,338 @@
+{
+  "css/haps.css": {
+    "filename": "css/haps.css",
+    "hash": "f521f92c7ea46003f4ecb530d379b27aded9cdb3",
+    "created": "2023-07-30T08:57:14.405Z",
+    "updated": "2023-07-30T08:57:14.405Z"
+  },
+  "css/one-rep-max.css": {
+    "filename": "css/one-rep-max.css",
+    "hash": "93c25f04e328102e47add978df90964f305da248",
+    "created": "2023-07-30T08:57:14.405Z",
+    "updated": "2023-07-30T08:57:14.405Z"
+  },
+  "css/style-sidebar.css": {
+    "filename": "css/style-sidebar.css",
+    "hash": "1a5ade8568a1e386bdd7d2eec7ac9ec106575631",
+    "created": "2023-07-30T08:57:14.405Z",
+    "updated": "2023-07-30T08:57:14.405Z"
+  },
+  "css/style.css": {
+    "filename": "css/style.css",
+    "hash": "81b927500c74dac05ed3be7d27e3635edeb531d2",
+    "created": "2023-07-30T08:57:14.405Z",
+    "updated": "2023-07-30T08:57:14.405Z"
+  },
+  "favicon.ico": {
+    "filename": "favicon.ico",
+    "hash": "ae8a6691ec1b733b0432ec62d18b3dbf3820fbe6",
+    "created": "2023-07-30T08:57:14.405Z",
+    "updated": "2023-07-30T08:57:14.405Z"
+  },
+  "favicon.png": {
+    "filename": "favicon.png",
+    "hash": "2b4416cc0aa61ba7b67b9c97c53a940449f40a87",
+    "created": "2023-07-30T08:57:14.405Z",
+    "updated": "2023-07-30T08:57:14.405Z"
+  },
+  "hang-edge-calc-writeup.html": {
+    "filename": "hang-edge-calc-writeup.html",
+    "hash": "9f3c5b100ce24e0246a2fd1c7251517456707738",
+    "created": "2020-11-16T00:00:00.000Z",
+    "updated": "2020-11-16T00:00:00.000Z"
+  },
+  "hang-edge-calc.html": {
+    "filename": "hang-edge-calc.html",
+    "hash": "acc2c27dbae8d21f2c9b2f076d7ca1d549c1c27b",
+    "created": "2020-11-24T00:00:00.000Z",
+    "updated": "2020-11-24T00:00:00.000Z"
+  },
+  "hapslist.yaml": {
+    "filename": "hapslist.yaml",
+    "hash": "ec06f4ec962f51724ae880e3e32063a27f1ee3b4",
+    "created": "2023-07-30T08:57:14.405Z",
+    "updated": "2023-07-30T08:57:14.405Z"
+  },
+  "img/full_crimp_graph.png": {
+    "filename": "img/full_crimp_graph.png",
+    "hash": "a5e8c676d641a2e76b8a06527a0ea9415fd36664",
+    "created": "2023-07-30T08:57:14.405Z",
+    "updated": "2023-07-30T08:57:14.405Z"
+  },
+  "img/full_crimp_graph.webp": {
+    "filename": "img/full_crimp_graph.webp",
+    "hash": "d390ea9e33e813b083d73efdc683a74ce28eef7e",
+    "created": "2023-07-30T08:57:14.405Z",
+    "updated": "2023-07-30T08:57:14.405Z"
+  },
+  "img/gravity-memory/card_0.png": {
+    "filename": "img/gravity-memory/card_0.png",
+    "hash": "e33193fbfd067de751ef68124c1729d2afbf5765",
+    "created": "2023-07-30T08:57:14.405Z",
+    "updated": "2023-07-30T08:57:14.405Z"
+  },
+  "img/gravity-memory/card_1.png": {
+    "filename": "img/gravity-memory/card_1.png",
+    "hash": "462e7e6d82e7c0e43a26aa1a20b8458047a1c728",
+    "created": "2023-07-30T08:57:14.405Z",
+    "updated": "2023-07-30T08:57:14.405Z"
+  },
+  "img/gravity-memory/card_10.png": {
+    "filename": "img/gravity-memory/card_10.png",
+    "hash": "dbed894520883a1e91c0229427d44f3a307ca806",
+    "created": "2023-07-30T08:57:14.405Z",
+    "updated": "2023-07-30T08:57:14.405Z"
+  },
+  "img/gravity-memory/card_11.png": {
+    "filename": "img/gravity-memory/card_11.png",
+    "hash": "3eb32edc65c082bb6ce784532050620a98ce1c8d",
+    "created": "2023-07-30T08:57:14.405Z",
+    "updated": "2023-07-30T08:57:14.405Z"
+  },
+  "img/gravity-memory/card_12.png": {
+    "filename": "img/gravity-memory/card_12.png",
+    "hash": "e9831e023e2ae1deeffdc7990f19bd8845827354",
+    "created": "2023-07-30T08:57:14.405Z",
+    "updated": "2023-07-30T08:57:14.405Z"
+  },
+  "img/gravity-memory/card_13.png": {
+    "filename": "img/gravity-memory/card_13.png",
+    "hash": "3760a41ff30e0c551c23314dc6d202bb9159aada",
+    "created": "2023-07-30T08:57:14.405Z",
+    "updated": "2023-07-30T08:57:14.405Z"
+  },
+  "img/gravity-memory/card_14.png": {
+    "filename": "img/gravity-memory/card_14.png",
+    "hash": "30a82109ce401f5128f2bb5c634d56dcdf155256",
+    "created": "2023-07-30T08:57:14.405Z",
+    "updated": "2023-07-30T08:57:14.405Z"
+  },
+  "img/gravity-memory/card_15.png": {
+    "filename": "img/gravity-memory/card_15.png",
+    "hash": "04d53ea5465e83c2ea7cec4c5ac09b023c9e3b95",
+    "created": "2023-07-30T08:57:14.405Z",
+    "updated": "2023-07-30T08:57:14.405Z"
+  },
+  "img/gravity-memory/card_16.png": {
+    "filename": "img/gravity-memory/card_16.png",
+    "hash": "ab59ac8e390a685a9147c74dac3227b2df0b0f9f",
+    "created": "2023-07-30T08:57:14.405Z",
+    "updated": "2023-07-30T08:57:14.405Z"
+  },
+  "img/gravity-memory/card_2.png": {
+    "filename": "img/gravity-memory/card_2.png",
+    "hash": "fb1f67d7631611da2d0579f86f8633cb0e47943a",
+    "created": "2023-07-30T08:57:14.405Z",
+    "updated": "2023-07-30T08:57:14.405Z"
+  },
+  "img/gravity-memory/card_3.png": {
+    "filename": "img/gravity-memory/card_3.png",
+    "hash": "0484e2c2c01740c7272f21f55c7575115250fb29",
+    "created": "2023-07-30T08:57:14.405Z",
+    "updated": "2023-07-30T08:57:14.405Z"
+  },
+  "img/gravity-memory/card_4.png": {
+    "filename": "img/gravity-memory/card_4.png",
+    "hash": "d441b3eda1431a6e99b01b7cb5b3d44b8029f728",
+    "created": "2023-07-30T08:57:14.405Z",
+    "updated": "2023-07-30T08:57:14.405Z"
+  },
+  "img/gravity-memory/card_5.png": {
+    "filename": "img/gravity-memory/card_5.png",
+    "hash": "43f0425fa28c629e526f3f6bd25c67bbd1bbe278",
+    "created": "2023-07-30T08:57:14.405Z",
+    "updated": "2023-07-30T08:57:14.405Z"
+  },
+  "img/gravity-memory/card_6.png": {
+    "filename": "img/gravity-memory/card_6.png",
+    "hash": "6d2fb4ea02c948aae3f0abe7d56341d764a12db9",
+    "created": "2023-07-30T08:57:14.405Z",
+    "updated": "2023-07-30T08:57:14.405Z"
+  },
+  "img/gravity-memory/card_7.png": {
+    "filename": "img/gravity-memory/card_7.png",
+    "hash": "76b1d0ac3ea6dc38db8983c9a80f65c73209d368",
+    "created": "2023-07-30T08:57:14.405Z",
+    "updated": "2023-07-30T08:57:14.405Z"
+  },
+  "img/gravity-memory/card_8.png": {
+    "filename": "img/gravity-memory/card_8.png",
+    "hash": "8afad5d98ba0e7048e2a78e6b8e9a63b02234555",
+    "created": "2023-07-30T08:57:14.405Z",
+    "updated": "2023-07-30T08:57:14.405Z"
+  },
+  "img/gravity-memory/card_9.png": {
+    "filename": "img/gravity-memory/card_9.png",
+    "hash": "9566b502dbb7df8098dc286ea8ab0ac5675920ac",
+    "created": "2023-07-30T08:57:14.405Z",
+    "updated": "2023-07-30T08:57:14.405Z"
+  },
+  "img/gravity-memory/pulseIcon.png": {
+    "filename": "img/gravity-memory/pulseIcon.png",
+    "hash": "b96974d5a2528266b3c5760d1f37e854924ed1f9",
+    "created": "2023-07-30T08:57:14.405Z",
+    "updated": "2023-07-30T08:57:14.405Z"
+  },
+  "img/grip_types.png": {
+    "filename": "img/grip_types.png",
+    "hash": "a6be1380cdecde58692d4591b3113d89da65ce64",
+    "created": "2023-07-30T08:57:14.405Z",
+    "updated": "2023-07-30T08:57:14.405Z"
+  },
+  "img/grip_types.webp": {
+    "filename": "img/grip_types.webp",
+    "hash": "cecab7c3947e662fdb2f2cd861c423a12afa1555",
+    "created": "2023-07-30T08:57:14.405Z",
+    "updated": "2023-07-30T08:57:14.405Z"
+  },
+  "img/half_crimp_graph.png": {
+    "filename": "img/half_crimp_graph.png",
+    "hash": "4ce53769251183200c221913fa1e9b70e5950d71",
+    "created": "2023-07-30T08:57:14.405Z",
+    "updated": "2023-07-30T08:57:14.405Z"
+  },
+  "img/half_crimp_graph.webp": {
+    "filename": "img/half_crimp_graph.webp",
+    "hash": "50c9603a8b23fe8bfde968070bb7344ed1eec799",
+    "created": "2023-07-30T08:57:14.405Z",
+    "updated": "2023-07-30T08:57:14.405Z"
+  },
+  "img/slope_graph.png": {
+    "filename": "img/slope_graph.png",
+    "hash": "d3167e61942f487e9177481613a55d601a69ca90",
+    "created": "2023-07-30T08:57:14.405Z",
+    "updated": "2023-07-30T08:57:14.405Z"
+  },
+  "img/slope_graph.webp": {
+    "filename": "img/slope_graph.webp",
+    "hash": "1898903f9ed30cfdde85c5d815a448c041ead50d",
+    "created": "2023-07-30T08:57:14.405Z",
+    "updated": "2023-07-30T08:57:14.405Z"
+  },
+  "index.html": {
+    "filename": "index.html",
+    "hash": "ff46affaf69aebb2a1b3512182dc856dbe082e45",
+    "created": "2023-07-30T08:57:14.405Z",
+    "updated": "2023-07-30T08:57:14.405Z"
+  },
+  "js/gravity-memory/.libs/matter.min.js": {
+    "filename": "js/gravity-memory/.libs/matter.min.js",
+    "hash": "3927291f438c9b8698b020c9371e0eda34cef4b6",
+    "created": "2023-07-30T08:57:14.405Z",
+    "updated": "2023-07-30T08:57:14.405Z"
+  },
+  "js/gravity-memory/main.js": {
+    "filename": "js/gravity-memory/main.js",
+    "hash": "726770a3d7abcd8b4c181332b4033b8f2c79d2c4",
+    "created": "2023-07-30T08:57:14.405Z",
+    "updated": "2023-07-30T08:57:14.405Z"
+  },
+  "js/gravity-memory/utils.js": {
+    "filename": "js/gravity-memory/utils.js",
+    "hash": "ffe04838096c886ad5e390bced68cce438df92ec",
+    "created": "2023-07-30T08:57:14.405Z",
+    "updated": "2023-07-30T08:57:14.405Z"
+  },
+  "js/hang-edge-calc-writeup/.libs/tex-mml-chtml.js": {
+    "filename": "js/hang-edge-calc-writeup/.libs/tex-mml-chtml.js",
+    "hash": "0baddf005e27f6cb6edc1c715a91a28ab55ebb6b",
+    "created": "2023-07-30T08:57:14.405Z",
+    "updated": "2023-07-30T08:57:14.405Z"
+  },
+  "js/hang-edge-calc/.libs/math.min.js": {
+    "filename": "js/hang-edge-calc/.libs/math.min.js",
+    "hash": "f08045573404b66de2c3e0ae4625c5a16f22eef9",
+    "created": "2023-07-30T08:57:14.405Z",
+    "updated": "2023-07-30T08:57:14.405Z"
+  },
+  "js/hang-edge-calc/formulas.js": {
+    "filename": "js/hang-edge-calc/formulas.js",
+    "hash": "8e3d677c2cc9b63404b9bd916cc2e6cf582f0106",
+    "created": "2023-07-30T08:57:14.405Z",
+    "updated": "2023-07-30T08:57:14.405Z"
+  },
+  "js/hang-edge-calc/main.js": {
+    "filename": "js/hang-edge-calc/main.js",
+    "hash": "c34018ac8bd7aa6a7af6469560eca313a4fdd9bf",
+    "created": "2023-07-30T08:57:14.405Z",
+    "updated": "2023-07-30T08:57:14.405Z"
+  },
+  "js/hang-rep-max/formulas.js": {
+    "filename": "js/hang-rep-max/formulas.js",
+    "hash": "28d422da8450954d97e6b576e7bd9c5c2fbb9151",
+    "created": "2023-07-30T08:57:14.405Z",
+    "updated": "2023-07-30T08:57:14.405Z"
+  },
+  "js/hang-rep-max/main.js": {
+    "filename": "js/hang-rep-max/main.js",
+    "hash": "d891ac3f0cc2f0b7725cf5b15efa9695a806f7d5",
+    "created": "2023-07-30T08:57:14.405Z",
+    "updated": "2023-07-30T08:57:14.405Z"
+  },
+  "js/one-rep-max/formulas.js": {
+    "filename": "js/one-rep-max/formulas.js",
+    "hash": "a1b809accc54ad1923e8000dea491cfae16761a5",
+    "created": "2023-07-30T08:57:14.405Z",
+    "updated": "2023-07-30T08:57:14.405Z"
+  },
+  "js/one-rep-max/main.js": {
+    "filename": "js/one-rep-max/main.js",
+    "hash": "5e2be6d011eb7768786fa9e47529b8440b521a1d",
+    "created": "2023-07-30T08:57:14.405Z",
+    "updated": "2023-07-30T08:57:14.405Z"
+  },
+  "about.html": {
+    "filename": "about.html",
+    "hash": "4a39fb4641ae5e2a84ab618183cb85e510cdb42b",
+    "created": "2023-07-30T08:57:14.405Z",
+    "updated": "2023-07-30T09:02:19.339Z"
+  },
+  "abrevd-lang.html": {
+    "filename": "abrevd-lang.html",
+    "hash": "ecdea58b1c1d48b158e97750b509110f6b1a889f",
+    "created": "2022-11-21T00:00:00.000Z",
+    "updated": "2022-11-21T00:00:00.000Z"
+  },
+  "all-horror-oct-3.html": {
+    "filename": "all-horror-oct-3.html",
+    "hash": "3c984623817df860a459f250545fbc2f11f9916e",
+    "created": "2022-11-26T00:00:00.000Z",
+    "updated": "2022-11-26T00:00:00.000Z"
+  },
+  "gravity-memory.html": {
+    "filename": "gravity-memory.html",
+    "hash": "1e729cb9c5bc41c840f521517801126e17f38abf",
+    "created": "2020-04-23T00:00:00.000Z",
+    "updated": "2020-04-23T00:00:00.000Z"
+  },
+  "hang-rep-max.html": {
+    "filename": "hang-rep-max.html",
+    "hash": "660abac441552c5186316e814b05846ef22d0478",
+    "created": "2020-10-07T00:00:00.000Z",
+    "updated": "2020-10-07T00:00:00.000Z"
+  },
+  "hangboard-prod-page.html": {
+    "filename": "hangboard-prod-page.html",
+    "hash": "6aac4a82750f9914fdbfd96513f5cf99c0eca063",
+    "created": "2022-08-03T00:00:00.000Z",
+    "updated": "2022-08-03T00:00:00.000Z"
+  },
+  "interrogations-cosgrove-review.html": {
+    "filename": "interrogations-cosgrove-review.html",
+    "hash": "dfff13dec2e5b92a5fe69311230acee07f5b804b",
+    "created": "2021-07-12T00:00:00.000Z",
+    "updated": "2021-07-12T00:00:00.000Z"
+  },
+  "one-rep-max.html": {
+    "filename": "one-rep-max.html",
+    "hash": "111a8bf7be562b367c355c826e80521b9d10932b",
+    "created": "2020-07-16T00:00:00.000Z",
+    "updated": "2020-07-16T00:00:00.000Z"
+  },
+  "projects.html": {
+    "filename": "projects.html",
+    "hash": "ff46affaf69aebb2a1b3512182dc856dbe082e45",
+    "created": "2023-07-30T08:57:14.405Z",
+    "updated": "2023-07-30T08:57:14.405Z"
+  }
+}
