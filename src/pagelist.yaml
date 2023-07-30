@@ -48,22 +48,29 @@
   date: 2021-09-23
   ord: 10
 
+- title: "Whatcha googling #1"
+  path: "whatcha-googling-#1"
+  date: 2021-11-30
+  ord: 11
+
 - title: If you want me to buy your hangboard, put this stuff in your product page
   path: hangboard-prod-page
   date: 2022-08-03
-  ord: 11
+  ord: 12
 
 - title: Slightly faster writing system that I use
   path: abrevd-lang
   date: 2022-11-21
-  ord: 12
+  ord: 13
 
 - title: 3rd Annual Horror Film Every Day October
   path: all-horror-oct-3
   date: 2022-11-26
-  ord: 13
-
-- title: "Whatcha been googling? #1"
-  path: whatcha-been-googling?-#1
-  date: 2023-07-30
   ord: 14
+
+- title: "Whatcha googling #2"
+  path: whatcha-googling?-#2
+  date: 2023-07-30
+  ord: 15
+
+

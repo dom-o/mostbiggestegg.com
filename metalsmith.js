@@ -50,7 +50,7 @@ Metalsmith(__dirname)
   .use(imgToPicture())
   .use(imageAspectRatio({
     pattern: '**/*.html',
-    imageExtensions: ['png', 'jpg', 'jpeg', 'gif', 'webp'],
+    imageExtensions: ['png', 'jpg', 'jpeg', 'gif', 'webp', 'jxl'],
     imagesContainerClassName: '.content img',
   }))
   .use(debug())
