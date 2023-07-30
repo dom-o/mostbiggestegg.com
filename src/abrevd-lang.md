@@ -1,7 +1,6 @@
 ---
-layout: templates/post.njk
-sidebar: true
-ord: 16
+ord: 12
+created: 2022-11-21
 ---
 Once upon a time I was a kid in high school. I had to take notes for class; in a couple years I'd have to take more notes for more class for college. If I could write faster I could take better notes. If I could write fast enough I could take down a whole lecture verbatim; no information lost. Ultimate note taking. How do I write faster? Think: information dense writing systems.
 

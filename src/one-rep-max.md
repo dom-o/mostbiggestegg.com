@@ -1,7 +1,7 @@
 ---
 layout: one-rep-max.njk
-sidebar: true
 ord: 3
+created: 2020-07-16
 ---
 <p>Use note: sometimes these equations will spit out answers that don't really make sense, e.g. negative reps. Checking 'sensible outputs' mitigates that as follows:</p>
 <ul>

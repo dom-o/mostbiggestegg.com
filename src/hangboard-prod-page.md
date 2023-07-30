@@ -1,7 +1,6 @@
 ---
-layout: templates/post.njk
-sidebar: true
 ord: 15
+created: 2022-08-03
 ---
 ## Pictures
 - Full front view. Classic for a reason. Show the entire board. Opportunity to include measurements for length/width.
