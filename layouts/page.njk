@@ -1,0 +1,10 @@
+{% extends "./templates/default.njk" %}
+
+{% set curr = pages|match("ord", ord) %}
+{% set title = curr.title %}
+
+{% block main %}
+  published <time datetime="{{ created | UTCdate }}">{{ created | blogDate }}</time>{% if modified %}; last updated <time datetime="{{ updated | UTCdate }}">{{ updated | blogDate }}</time>{% endif %}
+  <h1>{{ curr.title }}</h1>
+  {{ contents | safe }}
+{% endblock %}
