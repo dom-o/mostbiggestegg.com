@@ -14,7 +14,7 @@
 
     <link rel="shortcut icon" href="{{ rootPath }}favicon.png">
     <link rel="stylesheet" href="{{ rootPath }}css/style.css" />
-    {%if sidebar %}
+    {%if sidebar != false %}
     <link rel="stylesheet" href="{{ rootPath }}css/style-sidebar.css"/>
     {% endif %}
 
@@ -23,7 +23,7 @@
   </head>
 
   <body>
-    {% if sidebar %}
+    {% if sidebar != false %}
     {% include "./partials/sidebar.njk" %}
     {% endif %}
     <main class="content container">
