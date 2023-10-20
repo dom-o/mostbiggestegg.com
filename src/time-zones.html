@@ -2,8 +2,9 @@
 ord: 16
 layout: time-zones.njk
 ---
+<p>Use notes: this may be wrong around Daylight Savings Time; it may output a timezone that is an hour off one way or the other.</p>
 <h2>Question:</h2>
-<p>If my timezone was <br><select id="timezones"></select><br> and the date/time was currently <br><input type="datetime-local" id="current"/>,<br>where in the world would it be<br><input type="datetime-local" id="desired"/> ?</p>
+<p>If my timezone was <br><select id="timezones"></select><br> and the time was currently <br><input type="time" id="current"/> today (<span id="today"></span>),<br>where in the world would it be<br><input type="datetime-local" id="desired"/> ?</p>
 
 <button id="submit">find out</button>
 
