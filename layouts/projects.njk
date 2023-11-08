@@ -35,10 +35,9 @@
   {% macro projlist(val) %}
     {% for proj in projs|filter("status", val) %}
       <li>
-        <h3>{{ proj.title }}</h3>
+        <h3>{% if proj.live %}<a href="{{ proj.live }}">{{ proj.title }}</a>{% else %}{{ proj.title }}{% endif %}</h3>
           <ul class="links">
             {% if proj.writeup %}<li><a href="{{ proj.writeup }}">writeup</a></li>{% endif %} 
-            {% if proj.live %}<li><a href="{{proj.live}}">live</a></li>{% endif %} 
             {% if proj.repo %}<li><a href="{{proj.repo}}">repo</a></li>{% endif %}
           </ul>
           <p>{{ proj.descr }}</p>
