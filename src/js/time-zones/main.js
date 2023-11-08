@@ -56,7 +56,7 @@ todays_date.innerText = local_datetime.toDateString()
 
 //on submit
 document.getElementById('submit').onclick = function() {
-	//this is because valueAsDate for the fucking time element naturally gives back the date in fucking utc, so we have to manually split/parse the raw value string ourselves
+	//this is because valueAsDate for the time element naturally gives back the date in utc, so we have to manually split/parse the raw value string ourselves
 	var curr_time = new Date(local_datetime)
 	var curr_time_select_components = curr_time_select.value.slice(0,-4).split(':')
 	curr_time.setHours(curr_time_select_components[0])
