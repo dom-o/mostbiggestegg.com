@@ -2,14 +2,31 @@
 
 {% block custom_head %}
 <style>
-  details summary {
-    cursor: pointer
+  .container, .content { 
+    max-width:90%;
   }
-  details summary > * {
-    display: inline;
+  
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
   }
+  li {
+    display:inline-block;
+    list-style-type: none;
+    max-width: 25rem;
+    border: solid thin white;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  ul.links li {
+    border: none;
+  }
+  
   h3 {
     margin-top: 0.5rem;
+    margin-bottom: 0rem;
   }
 </style>
 {% endblock %}
@@ -18,34 +35,21 @@
   {% macro projlist(val) %}
     {% for proj in projs|filter("status", val) %}
       <li>
-        <h3><a href="{% if proj.writeup %} {{ proj.writeup }} {% elif proj.live %} {{ proj.live }} {% elif proj.repo %} {{ proj.repo }} {% endif %}">{{ proj.title }}</a></h3>
-        <p>{{ proj.descr }}</p>
+        <h3>{{ proj.title }}</h3>
+          <ul class="links">
+            {% if proj.writeup %}<li><a href="{{ proj.writeup }}">writeup</a></li>{% endif %} 
+            {% if proj.live %}<li><a href="{{proj.live}}">live</a></li>{% endif %} 
+            {% if proj.repo %}<li><a href="{{proj.repo}}">repo</a></li>{% endif %}
+          </ul>
+          <p>{{ proj.descr }}</p>
       </li>
     {% endfor %}
   {% endmacro %}
 
   <h1>Projects</h1>
-
-  {% if projs|filter("status", "curr")|length > 0 %}
-    <h2>New, exciting</h2>
-    <ul>
-      {{ projlist("curr") }}
+  {% if projs|filter("status", "live")|length > 0 %}
+    <ul class="live">
+      {{ projlist("live") }}
     </ul>
-  {% endif %}
-
-  {% if projs|filter("status", "dev")|length > 0 %}
-    <h2>Currently working on:</h2>
-    <ul>
-      {{ projlist("dev") }}
-    </ul>
-  {% endif %}
-
-  {% if projs|filter("status", "old")|length > 0 %}
-    <details>
-      <summary><h2>Older</h2></summary>
-      <ul>
-        {{ projlist("old") }}
-      </ul>
-    </details>
   {% endif %}
 {% endblock %}

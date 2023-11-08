@@ -17,53 +17,53 @@
   live: https://mostbiggestegg.com/juggle
   repo: https://github.com/dom-o/juggle
   descr: Adjacency matrix to explore relationships between juggling tricks.
-  status: curr
+  status: live
 
 - title: spotify-recs-controller
   writeup: about-spotify-recs-controller
   live: https://mostbiggestegg.com/spotify-recs-controller
   repo: https://github.com/dom-o/spotify-recs-controller
   descr: Lets you play around with the Spotify recommendations engine.
-  status: curr
+  status: live
 
 - title: Color Differentiator
   writeup:
   live: https://mostbiggestegg.com/colors/
   repo: https://github.com/dom-o/colors
   descr: Picks colors that are most visually distinct from each other.
-  status: curr
+  status: live
 
 - title: Hangboard Edge Calculator
   writeup: hang-edge-calc-writeup
   live: hang-edge-calc
   repo:
   descr: Calculator for hanging on different edges, answers e.g. 'if you can hang X seconds on edge of size Y, how long can you hang on edge of size Z?'.
-  status: old
+  status: live
 
 - title: Hangboard Rep Max Calculator
   writeup:
   live: hang-rep-max
   repo:
   descr: One rep max calculator for hangboarding.
-  status: old
+  status: live
 
 - title: One Rep Max Calculator
   writeup:
   live: one-rep-max
   repo:
   descr: Simple one rep max calculator.
-  status: old
+  status: live
 
 - title: gravity memory
   writeup:
   live: gravity-memory
   repo: https://github.com/dom-o/gravity-memory
   descr: Variant of memory where the cards are falling through the air, and you have to stop them hitting the ground while you match them.
-  status: old
+  status: live
 
 - title: route descriptor
   writeup:
   live: https://dom-o.github.io/route-descriptor/
   repo: https://github.com/dom-o/route-descriptor
   descr: Generates Mountain Project routes pages with made-up beta.
-  status: old
+  status: live
