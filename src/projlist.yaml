@@ -12,6 +12,13 @@
   descr: Creates an RSS feed from a list of URLs.
   status: unk
 
+- title: time zone translator
+  writeup:
+  live: time-zones
+  repo:
+  descr: Answers the question 'if it's time X in my time zone, where in the world is it time Z'.
+  status: live
+
 - title: Juggling Tricks Matrix
   writeup: about-juggle
   live: https://mostbiggestegg.com/juggle
