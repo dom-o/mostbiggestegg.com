@@ -1,5 +1,6 @@
 ---
 title: "Whatcha googling #2"
+created: 2023-07-30
 ---
 They say you reveal who you are via what you ask the oracle, and google is hell closer than Delphi.
 To that end, I have recently searched for all the following:
