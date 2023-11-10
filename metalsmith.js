@@ -45,6 +45,10 @@ Metalsmith(__dirname)
     }
   }))
   .use(rootpath())
+  .use(feed({
+    collection: 'pages',
+    destination: 'feed.rss'
+  }))
   .use(layouts({
     default: 'page.njk',
     pattern: ['**/*.html'],
@@ -56,10 +60,6 @@ Metalsmith(__dirname)
         filter: (list, prop, val) => list.filter(a => a[prop] == val),
       }
     }
-  }))
-  .use(feed({
-    collection: 'pages',
-    destination: 'feed.rss'
   }))
   .use(imgToPicture())
   .use(imageAspectRatio({
