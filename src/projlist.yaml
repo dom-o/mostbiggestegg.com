@@ -16,7 +16,7 @@
   writeup:
   live: time-zones
   repo:
-  descr: Answers the question 'if it's time X in my time zone, where in the world is it time Z'.
+  descr: Answers the question 'if it's time X in my time zone, where in the world is it time Z?'.
   status: live
 
 - title: Juggling Tricks Matrix
@@ -74,3 +74,4 @@
   repo: https://github.com/dom-o/route-descriptor
   descr: Generates Mountain Project routes pages with made-up beta.
   status: live
+  
