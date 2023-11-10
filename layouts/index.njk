@@ -4,13 +4,14 @@
 <a href="{{rootPath}}feed">RSS</a>
 <ul style="padding-left:0; line-height:2;">
 
-{% for page in pages | sort(true, false, 'date') %}
+{% for page in collections.pages %}
+  {# | sort(true, false, 'created') %} #}
   <li>
     <a
       {% if page.url %} href="{{ page.url }}"
       {%else%} href="{{ page.path }}" {% endif %}>
         {{ page.title }}</a> -
-    <time datetime="{{ page.date | UTCdate }}">{{ page.date | blogDate }}</time>
+    <time datetime="{{ page.created | UTCdate }}">{{ page.created | blogDate }}</time>
   </li>
 {% endfor %}
 </ul>
