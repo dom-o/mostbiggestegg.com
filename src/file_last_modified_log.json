@@ -394,5 +394,11 @@
     "hash": "46043c63ddaa95c85198aed639362440ad6d21cb",
     "created": "2023-10-18T23:55:31.956Z",
     "updated": "2023-10-20T00:37:13.306Z"
+  },
+  "pagelist.yaml": {
+    "filename": "pagelist.yaml",
+    "hash": "64d9388b02b71e8b6d7af6cbd2c7bada17e8c455",
+    "created": "2023-11-10T17:06:39.591Z",
+    "updated": "2023-11-10T17:06:39.591Z"
   }
 }
