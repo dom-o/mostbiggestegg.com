@@ -17,7 +17,7 @@ After you have these things, individualize all you like. Include your action sho
 ## Description
 - Dimensions: height, width, depth. If your board is in two pieces, include dimensions per piece, not dimensions for the full board.
 
-- Hold measurements. Restate the information in the hold measurements picture and add detail where possible. For edges include depth as detailed above, degree of incut (use degrees this time), and radius information - actual radius in inches/mm of course, but ideally supplement with more intuitive qualitative details ('sharp', 'comfortable', 'slopey'). Include depth for pockets. I do think it's implied that most pockets are relatively comfy/generally flat; be explicit about incut/radius anyway. For slopers, include degrees as above and for pinches include width in edges/mm; also indicate any other unique quality, e.g. pinch flaring/tapering.
+- Hold measurements. Restate the information in the hold measurements picture and add detail where possible. For edges include depth as detailed above, degree of incut (use degrees this time), and radius information - actual radius in inches/mm of course, but ideally supplement with more intuitive qualitative details ('sharp', 'comfortable', 'slopey'). Include depth for pockets. I do think it's implied that most pockets are relatively comfy/generally flat; be explicit about incut/radius anyway. For slopers, include degrees as above and for pinches include width in inches/mm; also indicate any other unique quality, e.g. pinch flaring/tapering.
 
 - Indicate the distance between pairs of holds. Do not say 'shoulder-width'; break out the ruler and give me a number.
 
