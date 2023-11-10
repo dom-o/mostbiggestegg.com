@@ -1,5 +1,5 @@
 ---
-ord: 12
+title: If you want me to buy your hangboard, put this stuff in your product page
 created: 2022-08-03
 ---
 ## Pictures

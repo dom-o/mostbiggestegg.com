@@ -1,6 +1,6 @@
 ---
+title: Hangboard Rep Max Calculator
 layout: hang-rep-max.njk
-ord: 4
 created: 2020-10-07
 ---
 This is a set of rep max calculators for hangboarding based off of an [old r/climbharder thread](https://www.reddit.com/r/climbharder/comments/4zrqez/1rm_estimation_for_timed_exercises_like/), specifically this [comment](https://www.reddit.com/r/climbharder/comments/4zrqez/1rm_estimation_for_timed_exercises_like/d6yaf8c?utm_source=share&utm_medium=web2x&context=3):

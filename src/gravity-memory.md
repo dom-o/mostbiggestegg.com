@@ -1,6 +1,6 @@
 ---
 layout: gravity-memory.njk
-ord: 2
+title: Gravity Memory
 created: 2020-04-23
 ---
 <p>It's the card game <a href="https://en.wikipedia.org/wiki/Concentration_(card_game)">Memory</a>, but the cards are all falling through the air. You have to stop them from falling while you play. The card designs are inspired by <a href="https://rhymesayers.com/artists/aesoprock">Aesop Rock</a>'s old Snapchat stories; they had a similar witchy feel.</p>
