@@ -4,9 +4,10 @@ const Metalsmith = require('metalsmith'),
   rootpath = require('metalsmith-rootpath'),
   layouts = require('@metalsmith/layouts'),
   imageAspectRatio = require('metalsmith-image-aspect-ratio'),
-  updated = require('metalsmith-updated')
+  updated = require('metalsmith-updated'),
+  feed = require('metalsmith-feed'),
+  collections = require('@metalsmith/collections'),
 
-  feed = require('./plugins/feed'),
   // haps = require('./plugins/haps'),
   imgToPicture = require('./plugins/imgToPicture'),
 
@@ -14,6 +15,7 @@ const Metalsmith = require('metalsmith'),
 
 
 Metalsmith(__dirname)
+  // .env('DEBUG', '@metalsmith/collections')
   .metadata({
     site: {
       url: 'https://mostbiggestegg.com/',
@@ -24,7 +26,6 @@ Metalsmith(__dirname)
     },
   })
   .use(metadata({
-    'pages': 'src/pagelist.yaml',
     'projs': 'src/projlist.yaml',
     // 'haps-events': 'src/hapslist.yaml'
   }))
@@ -32,6 +33,16 @@ Metalsmith(__dirname)
   .use(markdown())
   .use(updated({
     'updatedFile':'file_last_modified_log.json'
+  }))
+  .use(collections({
+    pages: {
+      pattern:'*.html',
+      sortBy: 'created',
+      reverse: true,
+      filterBy: (file) => {
+        return !file.collection.includes('admin')
+      }
+    }
   }))
   .use(rootpath())
   .use(layouts({
@@ -46,7 +57,10 @@ Metalsmith(__dirname)
       }
     }
   }))
-  .use(feed({collection: 'pages'}))
+  .use(feed({
+    collection: 'pages',
+    destination: 'feed.rss'
+  }))
   .use(imgToPicture())
   .use(imageAspectRatio({
     pattern: '**/*.html',
