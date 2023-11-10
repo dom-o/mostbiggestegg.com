@@ -335,18 +335,6 @@
     "created": "2023-07-30T08:57:14.405Z",
     "updated": "2023-07-30T08:57:14.405Z"
   },
-  "whatcha-googling-#1.html": {
-    "filename": "whatcha-googling-#1.html",
-    "hash": "f002ec5f619d29fa41fa0b1103d986e81256f703",
-    "created": "2021-11-30T00:00:00.000Z",
-    "updated": "2021-11-30T00:00:00.000Z"
-  },
-  "whatcha-googling-#2.html": {
-    "filename": "whatcha-googling-#2.html",
-    "hash": "ba61c9d751810c68b2287a3d0ee05795c5801dc4",
-    "created": "2023-07-30T11:38:50.280Z",
-    "updated": "2023-07-30T11:38:50.280Z"
-  },
   "time_zones.html": {
     "filename": "time_zones.html",
     "hash": "c75285e00e47a9e1d1e2615c2b7ed60bbf3de0d0",
@@ -362,7 +350,7 @@
   "whatcha-googling-2.html": {
     "filename": "whatcha-googling-2.html",
     "hash": "ba61c9d751810c68b2287a3d0ee05795c5801dc4",
-    "created": "2023-10-01T01:49:10.701Z",
+    "created": "2023-07-30T00:00:00.000Z",
     "updated": "2023-10-01T01:49:10.701Z"
   },
   "js/time-zones/main.js": {
@@ -400,5 +388,29 @@
     "hash": "64d9388b02b71e8b6d7af6cbd2c7bada17e8c455",
     "created": "2023-11-10T17:06:39.591Z",
     "updated": "2023-11-10T17:06:39.591Z"
+  },
+  "color-diff-announce.html": {
+    "filename": "color-diff-announce.html",
+    "hash": "668a8dbe224369879dde26f8f822aa7f0c66ea16",
+    "created": "2021-01-29T00:00:00.000Z",
+    "updated": "2021-01-29T00:00:00.000Z"
+  },
+  "juggling-tricks-announce.html": {
+    "filename": "juggling-tricks-announce.html",
+    "hash": "c3998a65ddc502fb5e87a07acc7990455c4f0125",
+    "created": "2021-09-22T00:00:00.000Z",
+    "updated": "2021-09-22T00:00:00.000Z"
+  },
+  "route-descriptor-announce.html": {
+    "filename": "route-descriptor-announce.html",
+    "hash": "d62e7919cbbc0acea37ba0aab908c1d5f17aea3b",
+    "created": "2020-03-31T00:00:00.000Z",
+    "updated": "2020-03-31T00:00:00.000Z"
+  },
+  "spotify-recs-controller-announce.html": {
+    "filename": "spotify-recs-controller-announce.html",
+    "hash": "e7a96724e6b8e6fcac63fb9d9a6c288be3794cea",
+    "created": "2021-04-25T00:00:00.000Z",
+    "updated": "2021-04-25T00:00:00.000Z"
   }
 }
