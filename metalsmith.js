@@ -48,7 +48,11 @@ Metalsmith(__dirname)
   .use(rootpath())
   .use(feed({
     collection: 'pages',
-    destination: 'feed.rss'
+    destination: 'feed.rss',
+    preprocess: file => ({
+      ...file,
+      date: file.created
+    })
   }))
   .use(excerpts({
     multipleFormats: true
