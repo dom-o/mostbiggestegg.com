@@ -313,9 +313,9 @@
   },
   "hangboard-prod-page.html": {
     "filename": "hangboard-prod-page.html",
-    "hash": "6aac4a82750f9914fdbfd96513f5cf99c0eca063",
+    "hash": "6bede98e242e199e5ca1ac8d0baf8ad7e282232d",
     "created": "2022-08-03T00:00:00.000Z",
-    "updated": "2022-08-03T00:00:00.000Z"
+    "updated": "2023-11-10T19:31:43.756Z"
   },
   "interrogations-cosgrove-review.html": {
     "filename": "interrogations-cosgrove-review.html",
@@ -412,5 +412,11 @@
     "hash": "e7a96724e6b8e6fcac63fb9d9a6c288be3794cea",
     "created": "2021-04-25T00:00:00.000Z",
     "updated": "2021-04-25T00:00:00.000Z"
+  },
+  "whatcha-googling-3.html": {
+    "filename": "whatcha-googling-3.html",
+    "hash": "07d2320db6dea4384bd520dbb6f28aa9bcb5ef1b",
+    "created": "2023-11-17T00:00:00.000Z",
+    "updated": "2023-11-17T00:00:00.000Z"
   }
 }
