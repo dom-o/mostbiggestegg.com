@@ -12,6 +12,7 @@
       {%else%} href="{{ page.path }}" {% endif %}>
         {{ page.title }}</a> -
     <time datetime="{{ page.created | UTCdate }}">{{ page.created | blogDate }}</time>
+    <p style="font-style:oblique; margin:0rem; width:100%; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;"><small>{{ page.excerpt.text }}</small></p>
   </li>
 {% endfor %}
 </ul>

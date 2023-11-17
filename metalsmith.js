@@ -7,6 +7,7 @@ const Metalsmith = require('metalsmith'),
   updated = require('metalsmith-updated'),
   feed = require('metalsmith-feed'),
   collections = require('@metalsmith/collections'),
+  excerpts = require('@metalsmith/excerpts'),
 
   // haps = require('./plugins/haps'),
   imgToPicture = require('./plugins/imgToPicture'),
@@ -32,7 +33,7 @@ Metalsmith(__dirname)
   // .use(haps())
   .use(markdown())
   .use(updated({
-    'updatedFile':'file_last_modified_log.json'
+    'updatedFile':'file_update_log.json'
   }))
   .use(collections({
     pages: {
@@ -48,6 +49,9 @@ Metalsmith(__dirname)
   .use(feed({
     collection: 'pages',
     destination: 'feed.rss'
+  }))
+  .use(excerpts({
+    multipleFormats: true
   }))
   .use(layouts({
     default: 'page.njk',
