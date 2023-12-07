@@ -1,5 +1,5 @@
 ---
-title: "whatcha googling?"
+title: "whatcha googling? #3"
 created: 2023-11-17
 ---
 Round 3. You are what you ask the oracle and google is hell closer than Delphi. 
