@@ -424,5 +424,65 @@
     "hash": "b973aa697eae84e74f2e7f65cdeacdb35250136e",
     "created": "2023-12-07T00:00:00.000Z",
     "updated": "2023-12-07T00:00:00.000Z"
+  },
+  "img/sheets-habit-tracker-example.png": {
+    "filename": "img/sheets-habit-tracker-example.png",
+    "hash": "7cb815b2353bfaf8e1f2a0b31d37b772631f538f",
+    "created": "2023-12-22T07:53:55.887Z",
+    "updated": "2023-12-22T07:53:55.887Z"
+  },
+  "img/habit-tracker-example-cell-cur-val.png": {
+    "filename": "img/habit-tracker-example-cell-cur-val.png",
+    "hash": "8d6ec0668690d0db95744b01df5a6af5faf5b8d0",
+    "created": "2023-12-22T08:18:49.842Z",
+    "updated": "2023-12-22T08:18:49.842Z"
+  },
+  "img/habit-tracker-example-ifttt-value-ingredient.png": {
+    "filename": "img/habit-tracker-example-ifttt-value-ingredient.png",
+    "hash": "7f355114a112929b6d0265a777ed2715430c1c3f",
+    "created": "2023-12-22T08:18:49.842Z",
+    "updated": "2023-12-22T08:18:49.842Z"
+  },
+  "img/habit-tracker-example-not-ifttt-auto.png": {
+    "filename": "img/habit-tracker-example-not-ifttt-auto.png",
+    "hash": "b8c9e476cf3edbb8af8908ce4ce72e79aad41e76",
+    "created": "2023-12-22T08:18:49.842Z",
+    "updated": "2023-12-22T08:18:49.842Z"
+  },
+  "img/habit-tracker-example-odometer-goal.png": {
+    "filename": "img/habit-tracker-example-odometer-goal.png",
+    "hash": "7c038f9bef6cb242f8f54c443326d855c88fb1f4",
+    "created": "2023-12-22T08:18:49.842Z",
+    "updated": "2023-12-22T08:18:49.842Z"
+  },
+  "img/habit-tracker-example-sheets-example-setup.png": {
+    "filename": "img/habit-tracker-example-sheets-example-setup.png",
+    "hash": "7cb815b2353bfaf8e1f2a0b31d37b772631f538f",
+    "created": "2023-12-22T08:18:49.842Z",
+    "updated": "2023-12-22T08:18:49.842Z"
+  },
+  "beeminder-tracker-goals.html": {
+    "filename": "beeminder-tracker-goals.html",
+    "hash": "2bd1b37f3f95f8a7175721138670113ad317b11d",
+    "created": "2023-12-22T00:00:00.000Z",
+    "updated": "2023-12-22T08:34:59.550Z"
+  },
+  "img/habit-tracker-example-cell-updated-in-spreadsheet.png": {
+    "filename": "img/habit-tracker-example-cell-updated-in-spreadsheet.png",
+    "hash": "351fb7d9d4ceec4d962dee3012ca8974d0b58829",
+    "created": "2023-12-22T08:28:26.099Z",
+    "updated": "2023-12-22T08:28:26.099Z"
+  },
+  "img/habit-tracker-example-sheet-path-cell-val.png": {
+    "filename": "img/habit-tracker-example-sheet-path-cell-val.png",
+    "hash": "482eb00a5358cfbe709a06b9bd9cd3e9f30a22c7",
+    "created": "2023-12-22T08:28:26.099Z",
+    "updated": "2023-12-22T08:28:26.099Z"
+  },
+  "img/habit-tracker-example-beeminder-action.png": {
+    "filename": "img/habit-tracker-example-beeminder-action.png",
+    "hash": "19cf06df61e6f42ee6336e11ffbacd64a5ed8e4f",
+    "created": "2023-12-22T08:31:18.188Z",
+    "updated": "2023-12-22T08:31:18.188Z"
   }
 }
