@@ -487,8 +487,20 @@
   },
   "whatcha-googling-5.html": {
     "filename": "whatcha-googling-5.html",
-    "hash": "003116f1ecd6e3231332f240a86e98763b361226",
+    "hash": "a81a5666597337f47cc9a742a971958af4a2bc6a",
     "created": "2024-01-20T00:00:00.000Z",
-    "updated": "2024-01-20T00:00:00.000Z"
+    "updated": "2024-03-02T06:21:21.414Z"
+  },
+  "whatcha-googling-6.html": {
+    "filename": "whatcha-googling-6.html",
+    "hash": "fa2007139a3dd4765e6ab19a7a87a34e1d972155",
+    "created": "2024-02-10T00:00:00.000Z",
+    "updated": "2024-02-10T00:00:00.000Z"
+  },
+  "whatcha-googling-7.html": {
+    "filename": "whatcha-googling-7.html",
+    "hash": "580c9b5490adf3188a92f9b4c0256635be45877c",
+    "created": "2024-03-02T00:00:00.000Z",
+    "updated": "2024-03-02T06:39:42.266Z"
   }
 }
