@@ -23,7 +23,7 @@ To that end, I have recently searched for all the following:
 <dt><a href="https://www.google.com/search?q=patagonia+advocate+alternatives">patagonia advocate alternatives</a><dt>
 <dd>Every so often I peep sonething like this to see if there's any players; the Advocates were a top ten shoe for me and if I ever find a comparable shoe I'm all over it.</dd>
 <dt><a href="https://www.google.com/search?q=scientology+thousand+yard+stare">scientology thousand yard stare </a><dt>
-<dd>Saw someone on LessWrong <a href="https://www.lesswrong.com/posts/qwdupkFd6kmeZHYXy/build-small-skills-in-the-right-order">lauding the Scientology training course</a> where they make you make eye contact with each other for an hour; all the responses pointed out these courses are tactics to soften you up for cult recreuitment, and this exercise specifically is responsible for the stare, which I'd never heard of before.</dd>
+<dd>Saw someone on LessWrong <a href="https://www.lesswrong.com/posts/qwdupkFd6kmeZHYXy/build-small-skills-in-the-right-order">lauding the Scientology training course</a> where they make you make eye contact with each other for an hour; all the responses pointed out these courses are tactics to soften you up for cult recruitment, and this exercise specifically is responsible for the stare, which I'd never heard of before.</dd>
 <dt><a href="https://www.google.com/search?q=incremental+reading">incremental reading</a><dt>
 <dd>Someone on LessWrong mentioned this re:its applicability to spaced repetition systems/Anki and I'd never heard of such.</dd>
 <dt><a href="https://www.google.com/search?q=healslut+meaning">healslut meaning </a><dt>
