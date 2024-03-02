@@ -2,7 +2,9 @@
 title: "whatcha googling? #7"
 created: 2024-03-02
 ---
-They say you reveal who you are via what you ask the oracle, and google is hell closer than Delphi. New format for these; I am going to explain myself a little. Hopefully this gives you yet more insight into my character - who I be.
+They say you reveal who you are via what you ask the oracle, and google is hell closer than Delphi. 
+
+New format for these; I am going to explain myself a little. Hopefully this gives you yet more insight into my character - who I be.
 
 To that end, I have recently searched for all the following:
 <dl>
