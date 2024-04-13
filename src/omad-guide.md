@@ -23,4 +23,4 @@ The meal is:
 	<li>sauces/spices (optional)</li>
 </ul>
 
-Easy meal to prep for; easy meal to cook, esp with a rice cooker. I toss whatever vegetables I want tender in there, plus the meat; it'll cook it fine if it's a thin enough cut. While it runs I chef up any last little thing, and once it's done we pop a couple eggs in to cook off the residual heat. Combine all ingredients in big bowl; enjoy.
+Basically a Buddha bowl type. I eat this every day. Easy meal to prep for; easy meal to cook, esp with a rice cooker. I toss whatever vegetables I want tender in there, plus the meat; it'll cook it fine if it's a thin enough cut. While it runs I chef up any last little thing, and once it's done we pop a couple eggs in to cook off the residual heat. Combine all ingredients in big bowl; enjoy.
