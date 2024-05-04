@@ -283,9 +283,9 @@
   },
   "about.html": {
     "filename": "about.html",
-    "hash": "76022e26022ba6a3f19aa9ad733269d5b8ee6d53",
+    "hash": "c2d78a3dc61dd665243a73e8eb20796a3fe0a5b7",
     "created": "2023-07-30T08:57:14.405Z",
-    "updated": "2023-07-30T11:38:50.280Z"
+    "updated": "2024-05-04T04:30:28.436Z"
   },
   "abrevd-lang.html": {
     "filename": "abrevd-lang.html",
@@ -511,8 +511,14 @@
   },
   "omad-guide.html": {
     "filename": "omad-guide.html",
-    "hash": "797a7f419369ea0c0419175fb74f4dedea0bdcef",
+    "hash": "0abf82629775064a729187f2c1250ab824dcb231",
     "created": "2024-04-13T00:00:00.000Z",
-    "updated": "2024-04-13T04:49:15.508Z"
+    "updated": "2024-05-04T04:30:28.436Z"
+  },
+  "haps1.html": {
+    "filename": "haps1.html",
+    "hash": "995db01a884dc07c89f3e951714935640ef71f27",
+    "created": "2024-05-03T00:00:00.000Z",
+    "updated": "2024-05-04T05:10:34.269Z"
   }
 }
