@@ -7,5 +7,5 @@ collection: admin
 <p>
   Can be found elsewhere:
   <a href="https://twitter.com/egghorn1">twitter</a>&nbsp;
-  <a href="https://letterboxd.com/mdomonic/">letterboxd</a>&nbsp;
+  <a href="https://letterboxd.com/egghorn/">letterboxd</a>&nbsp;
 </p>
