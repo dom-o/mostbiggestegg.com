@@ -529,8 +529,14 @@
   },
   "haps-24-6-14.html": {
     "filename": "haps-24-6-14.html",
-    "hash": "98581317407b71ba502f5d452c2824ba71bc8ba8",
+    "hash": "3a42d3823b13a8ffade8f3e66f051f0d14b2cab1",
     "created": "2024-06-14T00:00:00.000Z",
-    "updated": "2024-06-14T00:00:00.000Z"
+    "updated": "2024-07-06T00:10:25.347Z"
+  },
+  "haps-24-7-5.html": {
+    "filename": "haps-24-7-5.html",
+    "hash": "02ffc7225ae92f5382327f0ae7b9ffdbb14c93e5",
+    "created": "2024-07-05T00:00:00.000Z",
+    "updated": "2024-07-05T00:00:00.000Z"
   }
 }
