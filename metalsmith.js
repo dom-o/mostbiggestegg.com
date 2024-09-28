@@ -33,7 +33,7 @@ Metalsmith(__dirname)
   // .use(haps())
   .use(markdown())
   .use(updated({
-    'updatedFile':'file_update_log.json'
+    'updatedFile':'updated.json'
   }))
   .use(collections({
     pages: {
