@@ -613,8 +613,14 @@
   },
   "haps-2024-10-19.html": {
     "filename": "haps-2024-10-19.html",
-    "hash": "380c8c59292d4453e86b07dc51b9c67e0ef25ecd",
+    "hash": "33363a4e54aa4892d890415ff916fd7e6a4cb19b",
     "created": "2024-10-19T05:15:16.823Z",
-    "updated": "2024-10-19T05:15:16.823Z"
+    "updated": "2024-11-09T03:29:27.096Z"
+  },
+  "haps-2024-11-08.html": {
+    "filename": "haps-2024-11-08.html",
+    "hash": "013daf27f042d509fe6dc0e9f1f31fe660364883",
+    "created": "2024-11-09T03:29:27.096Z",
+    "updated": "2024-11-09T03:29:27.096Z"
   }
 }
