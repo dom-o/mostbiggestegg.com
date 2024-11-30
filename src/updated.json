@@ -619,8 +619,62 @@
   },
   "haps-2024-11-08.html": {
     "filename": "haps-2024-11-08.html",
-    "hash": "013daf27f042d509fe6dc0e9f1f31fe660364883",
+    "hash": "3408d3a7d1ad73bf0db6b4d8cae1a8d38ca70847",
     "created": "2024-11-09T03:29:27.096Z",
-    "updated": "2024-11-09T03:29:27.096Z"
+    "updated": "2024-11-29T04:42:20.718Z"
+  },
+  "js/angle-asteroids/.main.js.swp": {
+    "filename": "js/angle-asteroids/.main.js.swp",
+    "hash": "9b71c01871d64f75f0a2d6269a766f5dbce00d96",
+    "created": "2024-11-29T04:42:20.718Z",
+    "updated": "2024-11-30T02:51:55.178Z"
+  },
+  "js/angle-asteroids/main.js": {
+    "filename": "js/angle-asteroids/main.js",
+    "hash": "806cfc39585a78f87cf238ac08472267c75fe6d6",
+    "created": "2024-11-29T04:42:20.718Z",
+    "updated": "2024-11-30T02:51:55.178Z"
+  },
+  "js/angle-asteroids/utils.js": {
+    "filename": "js/angle-asteroids/utils.js",
+    "hash": "ffe04838096c886ad5e390bced68cce438df92ec",
+    "created": "2024-11-29T04:42:20.718Z",
+    "updated": "2024-11-29T04:53:38.138Z"
+  },
+  "js/gravity-memory/.main.js.swp": {
+    "filename": "js/gravity-memory/.main.js.swp",
+    "hash": "bd8f034382570294e656b86f6901e3642539f4c7",
+    "created": "2024-11-29T04:42:20.718Z",
+    "updated": "2024-11-29T04:42:20.718Z"
+  },
+  "js/gravity-memory/.utils.js.swp": {
+    "filename": "js/gravity-memory/.utils.js.swp",
+    "hash": "07514cc9394447bd3940bc3450d5656d501eb50b",
+    "created": "2024-11-29T04:42:20.718Z",
+    "updated": "2024-11-29T04:42:20.718Z"
+  },
+  "js/shared-libs/matter.min.js": {
+    "filename": "js/shared-libs/matter.min.js",
+    "hash": "3927291f438c9b8698b020c9371e0eda34cef4b6",
+    "created": "2024-11-29T04:42:20.718Z",
+    "updated": "2024-11-29T04:42:20.718Z"
+  },
+  "angle-asteroids.html": {
+    "filename": "angle-asteroids.html",
+    "hash": "a7004171863fc83828e39a3089d9d9e74ecf3cf1",
+    "created": "2024-11-29T04:42:20.718Z",
+    "updated": "2024-11-29T04:42:20.718Z"
+  },
+  "js/angle-asteroids/.utils.js.swp": {
+    "filename": "js/angle-asteroids/.utils.js.swp",
+    "hash": "95f807c26c58565f5a1d8458719a9e3585dfd096",
+    "created": "2024-11-29T04:53:38.138Z",
+    "updated": "2024-11-29T04:55:26.330Z"
+  },
+  "whatcha-googling-#8.html": {
+    "filename": "whatcha-googling-#8.html",
+    "hash": "5cbb91bd5eaa82cd3ef85e85050c3b5589d541d7",
+    "created": "2024-11-30T03:37:43.471Z",
+    "updated": "2024-11-30T03:37:43.471Z"
   }
 }
